@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+    @font-face {
+      font-family: Inter;
+      src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+    }
+
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      height: 100vh;
+      background-color: hsl(0, 0%, 8%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 280px;
+      height: 532px;
+      padding: 24px;
+      background-color: hsl(0, 0%, 12%);
+      text-align: center;
+      border-radius: 12px;
+    }
+
+    .container > *{
+      font-family: Inter;
+    }
+
+    .person-container img {
+      width: 92px;
+      border-radius: 100%;
+    }
+
+    .person-container h1 {
+      color: hsl(0, 0%, 100%);
+      font-size: x-large;
+      margin-top: 20px;
+      font-weight: 500;
+    }
+
+    .person-container h2 {
+      color: hsl(75, 94%, 57%);
+      font-size: small;
+      margin-top: 8px;
+    }
+
+    .person-container p {
+      color: hsl(0, 0%, 100%);
+      font-size: small;
+      margin-top: 28px;
+    }
+
+    .contacts {
+      height: 288px;
+      margin-top: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .contacts button {
+      background-color: hsl(0, 0%, 20%);
+      border: none;
+      color: hsl(0, 0%, 100%);
+      padding: 14px 0;
+      border-radius: 8px;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="person-container"> 
+      <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randall Profile Picture">
+      <h1>Jessica Randall</h1>
+      <h2>London, United Kingdom</h2>
+      <p>"Front-end developer and avid reader."</p>
+    </div>
+    <div class="contacts">
+      <button>GitHub</button>
+      <button>Frontend Mentor</button>
+      <button>LinkedIn</button>
+      <button>Twitter</button>
+      <button>Instagram</button>
+    </div>
+  </div>
+</body>
+</html>
